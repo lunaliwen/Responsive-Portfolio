@@ -13,7 +13,7 @@ body{
 
 .box2{
     width: 960px;
-    margin: 0 auto 0 auto;
+    margin: 0% 15%;
     background: #ffffff;
     padding: 1px 15px;
     font-size:14px;
@@ -27,13 +27,17 @@ h1{
     font-family: Georgia, Times, Times New Roman, serif;
     height: 50px;
     padding: 30px;
-    margin: 0px 100px 15px 270px;
+    margin-top: 0px; 
+    margin-right:100px;
+    margin-bottom:15px;
+    margin-left: 15%;
 }
 
 h2{
     color:#4aaaa5;
     font-family: Georgia, Times, Times New Roman, serif;
     font-size:30px;
+    margin-left=10%;
 }
 
 h3{
@@ -94,6 +98,10 @@ font-family: Georgia, Times, Times New Roman, serif;
     float:right;
 }
 
+.container{
+    margin: 0 auto 0 auto; 
+}
+
 .img3{
     position: relative;
     top:-610px;
@@ -104,6 +112,10 @@ font-family: Georgia, Times, Times New Roman, serif;
     position: relative;
     top:-610px;
     right:-400px;
+}
+
+p{
+    margin-left=10%;
 }
 
 @media screen and (max-width: 980px) {      
